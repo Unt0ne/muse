@@ -162,6 +162,9 @@
   background-color: #3366ff;
   border-radius: 8px 8px 8px 8px;
   padding: 12px 24px 12px 24px;
+  &:hover {
+    background-color: #2B57D9; /* Change color to #2B57D9 on hover */
+  }
 }
 .muse5 .buttonText {
   position: relative;
@@ -540,4 +543,17 @@
   font: 400 13px/1.5 "Inter", Helvetica, Arial, serif;
   color: #3366ff;
   text-align: center;
+}
+.muse5 .contactBox input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none; /* Убирает рамку */
+    border-radius: 0;
+    outline: none; /* Убирает синюю рамку при фокусе */
+}
+.contactBox input[type="email"]:focus {
+    border-bottom-color: #000; /* Изменяет цвет нижней рамки при фокусе */
+}
 }
