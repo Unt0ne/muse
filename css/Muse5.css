@@ -1,0 +1,543 @@
+.muse5.academySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+.muse5 .academyLogo {
+  position: relative;
+  margin: 32px auto 0px;
+  width: 143.96875px;
+  max-width: 85%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.muse5 .introSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px 0px;
+  margin: 32px 0px;
+  width: 100%;
+}
+.muse5 .introBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1024px;
+  background-color: #eef0f2;
+}
+.muse5 .highlightSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0px;
+  margin: 40px auto;
+  width: 640px;
+  max-width: 85%;
+}
+.muse5 .highlightBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0px;
+  width: 100%;
+}
+.muse5 .titleBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0px;
+  width: 100%;
+}
+.muse5 .textBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0px;
+}
+.muse5 .academyTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 600 26px/1.29 "Inter", Helvetica, Arial, serif;
+  color: #252323;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .muse5 .academyTitle {
+    font-size: 24px;
+  }
+}
+@media (max-width: 479px) {
+  .muse5 .academyTitle {
+    font-size: 22px;
+  }
+}
+.muse5 .academySubtitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 400 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  text-align: center;
+}
+.muse5 .highlightImage {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.muse5 .careerText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 400 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  text-align: center;
+}
+.muse5 .contactSection {
+  position: relative;
+  display: flex;
+  gap: 0px 10px;
+  width: 432px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .muse5 .contactSection {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.muse5 .contactBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+  min-width: 0px;
+  background-color: white;
+  border-radius: 8px 8px 8px 8px;
+  outline: 1px solid silver;
+  outline-offset: -1px;
+}
+.muse5 .contactEmail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 12px 0px 12px 20px;
+  width: 36px;
+  max-width: 85%;
+  font: 400 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #3b3b3b;
+}
+@media (max-width: 575px) {
+  .muse5 .contactEmail {
+    margin: 12px 0px 12px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .muse5 .contactEmail {
+    margin: 12px 0px 12px 8px;
+  }
+}
+.muse5 .joinButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 8px;
+  min-width: 98px;
+  background-color: #3366ff;
+  border-radius: 8px 8px 8px 8px;
+  padding: 12px 24px 12px 24px;
+}
+.muse5 .buttonText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0px;
+  font: 400 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.muse5 .buttonIcon {
+  position: relative;
+  margin: 4px 0px 3px;
+  width: 14px;
+  min-width: 0px;
+  height: 14px;
+}
+.muse5 .productsSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px 0px;
+  margin: 0px auto;
+  width: 640px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .muse5 .productsSection {
+    gap: 50px 0px;
+  }
+}
+.muse5 .productsTitleBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px 0px;
+  width: 100%;
+}
+.muse5 .productsTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 600 26px/1.29 "Inter", Helvetica, Arial, serif;
+  color: #252323;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .muse5 .productsTitle {
+    font-size: 24px;
+  }
+}
+@media (max-width: 479px) {
+  .muse5 .productsTitle {
+    font-size: 22px;
+  }
+}
+.muse5 .productsList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px 0px;
+  width: 100%;
+}
+.muse5 .productItem {
+  position: relative;
+  display: flex;
+  gap: 0px 12px;
+}
+@media (max-width: 479px) {
+  .muse5 .productItem {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 12px;
+  }
+}
+.muse5 .productImageBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px 0px;
+  width: 314px;
+  min-width: 0px;
+}
+@media (max-width: 479px) {
+  .muse5 .productImageBox {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.muse5 .ultimateGuitarIcon {
+  position: relative;
+  width: 100%;
+  min-height: 159px;
+  background-color: #ffc800;
+}
+.muse5 .productDetailsBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 89.81%;
+}
+.muse5 .ultimateGuitarTitle {
+  position: relative;
+  font: 600 18px/1.29 "Inter", Helvetica, Arial, serif;
+  color: #252323;
+}
+@media (max-width: 991px) {
+  .muse5 .ultimateGuitarTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.muse5 .ultimateGuitarDescriptionBox_box {
+  position: relative;
+  margin: 7px 0px 0px;
+}
+.muse5 .ultimateGuitarDescriptionBox {
+  display: -webkit-box;
+  font: 400 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.muse5 .readMoreBox {
+  position: relative;
+  display: flex;
+  gap: 0px 8px;
+  margin: 21px 0px 0px;
+}
+.muse5 .readMoreText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 600 14px/1.2 "Mulish", Helvetica, Arial, serif;
+  color: #3366ff;
+  text-align: center;
+}
+.muse5 .readMoreIcon {
+  position: relative;
+  margin: 2px 0px 1px;
+  width: 14px;
+  height: 14px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.muse5 .productImageBox1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0px;
+  width: 314px;
+  min-width: 0px;
+}
+@media (max-width: 479px) {
+  .muse5 .productImageBox1 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.muse5 .musescoreIcon {
+  position: relative;
+  min-height: 159px;
+  background-color: #2e68c0;
+}
+.muse5 .productDetailsBox1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 16px;
+  width: 238.984375px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .muse5 .productDetailsBox1 {
+    margin: 0px auto;
+  }
+}
+.muse5 .musescoreTitle {
+  position: relative;
+  font: 600 18px/1.29 "Inter", Helvetica, Arial, serif;
+  color: #252323;
+}
+@media (max-width: 991px) {
+  .muse5 .musescoreTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.muse5 .musescoreDescriptionBox_box {
+  position: relative;
+  margin: 7px 0px 0px;
+}
+.muse5 .musescoreDescriptionBox {
+  display: -webkit-box;
+  font: 400 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.muse5 .productItem1 {
+  position: relative;
+  display: flex;
+  gap: 0px 12px;
+}
+@media (max-width: 575px) {
+  .muse5 .productItem1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 12px;
+  }
+}
+.muse5 .productImageBox2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px 0px;
+  width: 314px;
+  min-width: 0px;
+}
+@media (max-width: 575px) {
+  .muse5 .productImageBox2 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.muse5 .audioComIcon {
+  position: relative;
+  width: 100%;
+  min-height: 159px;
+  background-color: #ea1542;
+}
+.muse5 .audioComTitle {
+  position: relative;
+  font: 600 18px/1.29 "Inter", Helvetica, Arial, serif;
+  color: #252323;
+}
+@media (max-width: 991px) {
+  .muse5 .audioComTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.muse5 .audioComDescriptionBox_box {
+  position: relative;
+  margin: 7px 0px 0px;
+}
+.muse5 .audioComDescriptionBox {
+  display: -webkit-box;
+  font: 400 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.muse5 .audacityIcon {
+  position: relative;
+  width: 100%;
+  min-height: 159px;
+  background-color: #1d4ed8;
+}
+.muse5 .audacityTitle {
+  position: relative;
+  font: 600 18px/1.29 "Inter", Helvetica, Arial, serif;
+  color: #252323;
+}
+@media (max-width: 991px) {
+  .muse5 .audacityTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.muse5 .audacityDescriptionBox_box {
+  position: relative;
+  margin: 7px 0px 0px;
+}
+.muse5 .audacityDescriptionBox {
+  display: -webkit-box;
+  font: 400 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.muse5 .footerSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92.5%;
+}
+.muse5 .footerImages {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 275.984375px;
+  max-width: 85%;
+}
+@media (max-width: 383px) {
+  .muse5 .footerImages {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.muse5 .footerIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.muse5 .communityText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0px 0px;
+  font: 400 14px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #4b4b4b;
+  text-align: center;
+}
+.muse5 .footerLinks {
+  position: relative;
+  display: flex;
+  gap: 0px 24px;
+  margin: 32px 0px 0px;
+  width: 311.9765625px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .muse5 .footerLinks {
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .muse5 .footerLinks {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.muse5 .helpCenterLink {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 13px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #3366ff;
+  text-align: center;
+}
+.muse5 .privacyPolicyLink {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 13px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #3366ff;
+  text-align: center;
+}
+.muse5 .termsOfServiceLink {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 13px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #3366ff;
+  text-align: center;
+}
